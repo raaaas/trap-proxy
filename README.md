@@ -1,8 +1,5 @@
 ## 🚪 trap-proxy
 
-[![Go Version](https://img.shields.io/github/go-mod/go-version/yourusername/trap-proxy)](https://github.com/yourusername/trap-proxy)
-[![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/trap-proxy)](https://hub.docker.com/r/yourusername/trap-proxy)
-[![License](https://img.shields.io/github/license/yourusername/trap-proxy)](https://github.com/yourusername/trap-proxy)
 
 **trap-proxy** is a lightweight, Lua-scriptable reverse proxy that detects and punishes malicious scanners (CONNECT, proxy test paths, absolute URLs, etc.) by feeding them infinite random data – wasting their bandwidth and resources. Legitimate traffic is forwarded transparently to your backend (Caddy, Nginx, WordPress, etc.) while HTTPS is passed through raw, preserving TLS and certificates.
 
@@ -56,7 +53,7 @@ Internet ── trap-proxy (ports 80 & 443)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/trap-proxy.git
+   git clone https://github.com/raaaas/trap-proxy.git
    cd trap-proxy
    ```
 
